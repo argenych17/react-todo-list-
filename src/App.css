@@ -4,3 +4,9 @@
     border: 1px solid rgba(197, 197,197);
     border-radius:  3px;
 }
+.todo-list{
+    border:  1px solid rgba(197, 197,197);
+}
+.todo-list >div:nth-child(odd){
+    background:rgba(197, 197,197);
+}

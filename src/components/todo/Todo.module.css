@@ -1,0 +1,29 @@
+
+.wrapper {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 10px;
+  }
+  .todoCheck {
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+  }
+  
+  .todoCheck > p {
+    margin: 0;
+    word-break: break-all;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    align-items: center;
+
+  }
+  
+  .done{
+    text-decoration: line-through;
+}

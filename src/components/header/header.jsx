@@ -1,10 +1,13 @@
+import React from "react"
+import css from "./Header.module.css";
 
-function Header() {
+
+function Header(props) {
     
 return(
 
-<div>
-    <h4>props.name</h4>
+<div className={css.wrapper} >
+    Header {props.count}
 </div>
 
 )
