@@ -10,3 +10,13 @@
 .todo-list >div:nth-child(odd){
     background:rgba(197, 197,197);
 }
+.loader{
+    width: 150px;
+    height: 150px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+}
+.loader{
+    width: 100%;
+}
