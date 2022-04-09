@@ -33,10 +33,10 @@ class CreateTodo extends React.Component{
                 value={this.state.inputValue}
                 onChange={this.handleChange}
                 type="text"
-                 class="form-control"
+                 className="form-control"
                   placeholder='Enter your todo' />
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Submit</button>
             </form>
         )
    }
@@ -54,8 +54,8 @@ class CreateTodo extends React.Component{
 
 //     return (
 //         <form onSubmit={submit} className="input-group">
-//             <input type="text" class="form-control" placeholder='Enter your todo' />
-//             <button type="submit" class="btn btn-primary">Submit</button>
+//             <input type="text" className="form-control" placeholder='Enter your todo' />
+//             <button type="submit" className="btn btn-primary">Submit</button>
 //         </form>
 //     );
 // }
