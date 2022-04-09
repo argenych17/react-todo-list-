@@ -30,7 +30,7 @@ class App extends React.Component {
 
     setTimeout(()=>{
    this.setState({isLoading: false })
-    }, 3000)
+    }, 5000)
   }
 
 
@@ -95,7 +95,7 @@ class App extends React.Component {
 
    if(this.state.isLoading){
      return <div className="loader" >
-       <img src="https://i.gifer.com/origin/01/017905764ef7551292353101da65eb66_w200.gif"  />
+       <img src="https://i.gifer.com/origin/01/017905764ef7551292353101da65eb66_w200.gif" alt="loading..." />
      </div>
 
      
