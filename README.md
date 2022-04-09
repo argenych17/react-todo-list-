@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This projects can be found be this [LINK](https://eloquent-salmiakki-4a1c81.netlify.app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
